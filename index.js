@@ -10,9 +10,9 @@ if (NODE_ENV == "development") {
 }
 
 var bot = new Bot({
-    token: ENV["FACEBOOK_PAGE_TOKEN"],
-    verify: ENV["FACEBOOK_WEBHOOK_VERIFICATION_KEY"],
-    app_secret: ENV["FACEBOOK_APP_SECRET"]
+    token: ENV["EAARhkzWNIF4BAE2UXZAJ6CsH6hpYnB6S5epmwzKAEH9U8lLc08AzX3Q9PZCLShxaEZCKC4ygjKZBncs76lVJNzfpTxji21eTZAyfmTxHW5MZAnEMvaTNHtAUbnxZATzQanLwFCLCbOeAMYvhHfve4M302rzUZBIFxEyqYtBlODYhEgZDZD"],
+    verify: ENV["my_voice_is_my_password_verify_me"],
+    app_secret: ENV["8d1e51d10a7edc54e9fd79ffac1bdb0c"]
 })
 
 const PORT = process.env.PORT || 9999
