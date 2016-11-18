@@ -15,7 +15,7 @@ var bot = new Bot({
     app_secret: ENV["8d1e51d10a7edc54e9fd79ffac1bdb0c"]
 })
 
-const PORT = process.env.PORT || 9999
+const PORT = process.env.PORT || 5000
 const HOST = process.env.HOST || "0.0.0.0"
 
 require("./bot_modules/index")(bot)
